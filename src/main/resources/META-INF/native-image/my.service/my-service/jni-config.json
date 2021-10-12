@@ -1,0 +1,26 @@
+[
+  {
+    "name": "com.amazonaws.services.lambda.runtime.api.client.runtimeapi.NativeClient",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.amazonaws.services.lambda.runtime.api.client.runtimeapi.InvocationRequest",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "fields" : [
+      { "name" : "id" },
+      { "name" : "xrayTraceId" },
+      { "name" : "invokedFunctionArn" },
+      { "name" : "deadlineTimeInMs" },
+      { "name" : "clientContext" },
+      { "name" : "cognitoIdentity" },
+      { "name" : "stream" },
+      { "name" : "content" }
+    ]
+  }
+]

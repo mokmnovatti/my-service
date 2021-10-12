@@ -1,0 +1,16 @@
+{
+  "resources": {
+    "includes": [
+      {
+        "pattern": "aws-lambda-runtime-interface-client.glibc.so"
+      },
+      {
+        "pattern": "aws-lambda-runtime-interface-client.musl.so"
+      }
+    ]
+  },
+  "bundles":[
+    {"name":"javax.servlet.LocalStrings"},
+    {"name":"javax.servlet.http.LocalStrings"}
+  ]
+}
